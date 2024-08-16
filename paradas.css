@@ -1,0 +1,158 @@
+*{margin:0;
+    padding:0;
+ 
+ }
+ 
+ body{
+    background-color: #21B809;
+ }
+ header{
+     background-color: #ffffff;
+     width: 100%;
+     height: 100px;
+     border-width:3px;
+     border-color: #21B809;
+     border-style:groove ;
+     border-radius: 0px ;
+     margin:auto;
+ 
+ }
+ 
+ menu{
+     background-color: #21B809;
+     width: 100%;
+     height: 50px;
+     border-width:3px;
+     border-color: #5fa463;
+     border-style:groove ;
+     border-radius: 0px ;
+     margin:auto;
+ }
+ main {
+    padding: 20px;
+}
+ 
+ 
+ article{
+     background-color: #ffff;
+     width: 100%;
+     height: 1000px;
+     border-width:3px;
+     border-color: #21B809;
+     border-style:groove ;
+     border-radius: 0px ;
+     margin:auto;
+ }
+
+ section{
+    background-color:#ffffff;
+    width: 100%;
+    height: 600px;
+    border-width:3px;
+    border-color: #5fa463;
+    border-style:groove ;
+    border-radius: 0px ;
+    margin:auto;
+}
+ footer{
+     background-color:  #21B809;
+     width: 100%;
+     height: 100px;
+     border-width:3px;
+     border-color: #5fa463;
+     border-style:groove ;
+     border-radius: 0px ;
+     margin:auto;
+ }
+ 
+ ul, li{
+     list-style: none;
+     font-family:Arial, Helvetica, sans-serif;
+     z-index:5;
+ }
+ 
+  .nav li a{
+       background-color: #ffffff;
+       color:#101a1a;
+       text-decoration: none;
+       padding: 10px 15px;
+       display: block;
+       margin-top: 1px;
+       margin-left: 2px;
+       border-radius: 10px;
+  }
+ 
+  .nav>li{
+     float: left;
+  }
+ 
+  .nav li a:hover{
+     background-color: #b3ecaa;
+     color: #74634d;
+ 
+  }
+ 
+  .nav li ul{
+     display: none;
+     position: absolute;
+     min-width: 140px;
+ 
+  }
+ 
+  .nav li:hover > ul{
+     display: block;
+  }
+
+  .contenido{
+    color: #020a2b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: justify;
+    padding: 25px;
+    }
+    
+  
+
+    h2{
+        color:  #000000;
+        font:Arial;        
+        font-size: medium;
+    }
+    h3{
+        color:  #020a2b;
+        font:Arial;        
+        font-size: small;
+    }
+.container {
+            
+            background-color: #ffffff;
+            display: flex;
+            justify-content: space-around;
+            margin: 20px;
+            flex-wrap: wrap;
+            
+        }
+        table {
+           
+            border-collapse: collapse;
+            width: 45%;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: lightblue;
+        }
+        h1 {
+            color: #790909;
+            text-align: center;
+        }
+        .section-title {
+
+            color: #790909;
+            margin: 20px 0;
+            text-align: center;
+        }
